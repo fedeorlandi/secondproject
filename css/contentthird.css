@@ -42,6 +42,7 @@
   margin-top: 5px;
   max-width: 100%;
   align: left;
+  height: auto;
 }
 .container_6column_1box_2_1 span{
   font-size: 18px;
@@ -54,11 +55,15 @@
 }
 .container_6column_1box_2_2 {
   flex: 50%;
+  margin-left: 4px;
+  margin-right: 1px;
+  text-align: left;
 }
 .container_6column_1box_2_2 img{
   margin-top: 5px;
   max-width: 100%;
   align: left;
+  height: auto;
 }
 .container_6column_1box_2_2 span{
   font-size: 18px;
