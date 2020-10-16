@@ -1,0 +1,27 @@
+.container_6column_2{
+    flex:100%;
+    
+}
+.container_6column_2box_1{
+    border-bottom: 1px grey solid;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}   
+.container_6column_2box_1_1{
+    align: left;
+    flex:20%;
+}
+.container_6column_2box_1_1 img{
+    max-width: 100%;
+}
+.container_6column_2box_1_1 span{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.container_6column_2box_1_1 p{
+    color: grey;
+    font-size: 14px;
+}

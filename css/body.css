@@ -8,3 +8,7 @@ body {
     font-family: newfont;
     src: url(newfont.ttf);
 };
+.container{
+    display: flex;
+    flex: 100%;
+}
