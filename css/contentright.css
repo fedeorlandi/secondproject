@@ -7,10 +7,14 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    text-align: left;
 }   
 .container_6column_2box_1_1{
-    align: left;
+    text-align: left;
     flex:20%;
+    padding-right: 2px;
+    margin-right: 2px;
+
 }
 .container_6column_2box_1_1 img{
     max-width: 100%;
