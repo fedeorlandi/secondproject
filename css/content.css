@@ -1,0 +1,31 @@
+.container_4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_4 img{
+    flex: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 10px red solid;
+}
+.container_4box_1{
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    text-align:center;
+}
+.container_4box1spanfirst{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.container_4box1spansecond{
+    color: white;
+    font-size: 25px;
+}
+.container_4 p{
+    color: black;
+    font-weight: bold;
+}
+
