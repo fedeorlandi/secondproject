@@ -39,6 +39,35 @@
     .column_1 img{
         margin-right: 25px;
     }
-    
-    
+    .container_6{
+        display: flex;
+        flex-direction: row;
+    }
+    .container_6column_1{
+        display: flex;
+        flex: 80%;
+        flex-direction: column;
+    }
+    .container_6column_2{
+        display: flex;
+        flex: 20%;
+        
+    }
+    .container_6column_2box_1{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_6column_1box_1{
+        text-align: left;
+        margin-right: 20px;
+    }
+    .container_6column_1box_2 {
+        margin-right: 20px;
+    }
+    .container_6column_1box_3 {
+        margin-right: 20px;
+    }
+    .container_6column_2box_1_1 img{
+        display: flex;
+    }
 }

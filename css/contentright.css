@@ -7,17 +7,19 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: left;
 }   
 .container_6column_2box_1_1{
     text-align: left;
-    flex:20%;
+    flex: 18%;
     padding-right: 2px;
     margin-right: 2px;
 
 }
 .container_6column_2box_1_1 img{
     max-width: 100%;
+    display: none;
 }
 .container_6column_2box_1_1 span{
     font-size: 18px;
