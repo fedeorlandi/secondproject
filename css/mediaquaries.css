@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+    .box_2{
+        display: flex;
+    }
+    .container_3 ul{
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        display: none;
+    }
+    .container_4{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container_4box_1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 87%;
+    }
+    
+}
