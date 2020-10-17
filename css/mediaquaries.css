@@ -50,8 +50,7 @@
     }
     .container_6column_2{
         display: flex;
-        flex: 20%;
-        
+        flex: 20%;   
     }
     .container_6column_2box_1{
         display: flex;
