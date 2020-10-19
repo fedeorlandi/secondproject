@@ -13,7 +13,7 @@
 }
 .column_1 img{
   max-width: 100%;
-  align: center;
+  align-content: center;
 }
 .column_1 span{
   font-size: 25px;
