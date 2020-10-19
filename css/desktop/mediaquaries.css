@@ -69,4 +69,10 @@
     .container_6column_2box_1_1 img{
         display: flex;
     }
+    container_6column_2box_1{
+        border-bottom: none;
+    }
+    .container_6column_1box_3{
+        border-bottom: none;
+    }
 }

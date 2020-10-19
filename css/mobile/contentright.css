@@ -5,9 +5,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px grey solid;
     text-align: center;
     text-align: left;
+    margin: 15px;
+    padding-bottom: 10px;
 }   
 .container_6column_2box_1_1{
     flex: 18%;
@@ -28,4 +29,5 @@
 .container_6column_2box_1_1 p{
     color: grey;
     font-size: 14px;
+    padding-top: 10px;
 }

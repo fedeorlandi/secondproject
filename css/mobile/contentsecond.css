@@ -10,19 +10,22 @@
 .column_1{
   flex: 100%;
   text-align: center;
+  padding-bottom: 10px;
 }
 .column_1 img{
   max-width: 100%;
   align-content: center;
+  margin-bottom: 15px;
 }
 .column_1 span{
   font-size: 25px;
   font-weight: bold;
-  color:black
+  color:black;
 }
 .column_1 p{
   color: grey;
   font-size: 18px;
+  padding-top: 10px;
 }
 .column_2{
   flex:100%;
@@ -38,7 +41,10 @@
 .column_2 p{
   color: grey;
   font-size: 18px;
+  padding-top: 10px;
 }
 .column_2box1{
   border-bottom: 1px grey solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
