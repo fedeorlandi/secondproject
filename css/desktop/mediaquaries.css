@@ -50,6 +50,7 @@
     }
     .container_6column_2{
         display: flex;
+        flex-direction: column;
         flex: 20%;   
     }
     .container_6column_2box_1{
@@ -59,6 +60,10 @@
     .container_6column_1box_1{
         text-align: left;
         margin-right: 20px;
+    }
+    .container_6column_2box_1_1{
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     .container_6column_1box_2 {
         margin-right: 20px;
