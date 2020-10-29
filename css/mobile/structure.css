@@ -109,12 +109,17 @@ header {
 /* content first*/
 .container_4{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     flex-wrap: wrap;
     flex: 100%;
     margin-bottom: 2px;
     border-bottom: 2px grey solid;
 }
 .container_4 img{
+    display: flex;
     flex: 100%;
     max-width: 100%;
     padding: 0px;
