@@ -10,10 +10,9 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="css/desktop/mediaquaries.css">  
     <link rel="stylesheet" href="css/reset/reset.css"> 
-    <script src="validations.js"></script>
+    <link rel="stylesheet" href="css/subscription.css">
 </head>
 <body>
-
 <div class="container">
     <div class="container_1">
         <div class="box_1">
@@ -81,65 +80,131 @@
         </div> 
     </div>
 </div>
-<div class="form">
-    <span class="container_title">Subscription</span>
-    <form>
-        <div class="container_form">
-            <div class="container_box_form">
-                <p> Name: </p>
-                <input name="surname" type="text" placeholder="Put your name" size="50">
+<main>
+    <form action="" class="form" id="form">
+        <!--Campo NameComplete-->
+        <div class="form_group" id="group_namecomplete">
+            <label for="namecomplete" class="form_label">Name</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="namecomplete" id="namecomplete" placeholder="Put your name">
             </div>
-            <div class="container_box_form">
-                <p>Email: </p>
-                <input type="text" placeholder="Put your email" size="50">
-            </div>
+            <p class="form_input-error">
+                    El nombre completo debe tener más de 6 letras y al menos un espacio entre medio.
+            </p>
         </div>
-
-        <div class="container_form">
-            <div class="container_box_form">
-                <p>Password: </p>
-                <input type="text" placeholder="Put your password" size="50">
+        <!--Campo Email-->
+        <div class="form_group" id="group_email">
+            <label for="email" class="form_label">Email</label>
+            <div class="form_group-input">
+                <input type="email" class="form_input" name="email" id="email" placeholder="Put your email">
             </div>
-            <div class="container_box_form">
-                <p> Age: </p>
-                <input type="text" placeholder="Put your age" size="50">
-            </div>
+            <p class="form_input-error">
+                El email debe tener un formato de email válido.
+            </p>
         </div>
-
-        <div class="container_form">
-            <div class="container_box_form">
-                <p> Telephone number: </p>
-                <input type="text" placeholder="Put your telephone number" size="50">
+        <!--Campo password-->
+        <div class="form_group" id="group_password">
+            <label for="password" class="form_label">Contraseña</label>
+            <div class="form_group-input">
+                <input type="password" class="form_input" name="password" id="password" placeholder="Put your password">
             </div>
-            <div class="container_box_form">
-                <p> Adress: </p>
-                <input type="text" placeholder="Put your adress" size="50">
-            </div>
+            <p class="form_input-error">
+                La contraseña debe tener al menos 8 caracteres, formados por letras y números.
+            </p>
         </div>
-
-        <div class="container_form">
-            <div class="container_box_form">
-                <p> City: </p>
-                <input type="text" placeholder="Put your city" size="50">
+        <!--Campo password 2-->
+        <div class="form_group" id="group_password2">
+            <label for="password2" class="form_label">Repetir Contraseña</label>
+            <div class="form_group-input">
+                <input type="password" class="form_input" name="password2" id="password2" placeholder="Put your password">
             </div>
-            <div class="container_box_form">
-                <p> Postal code: </p>
-                <input type="text" placeholder="Put your postal code" size="50">
-            </div>
+            <p class="form_input-error">
+                Ambas contraseñas deben coincidir
+            </p>
         </div>
-
-        <div class="container_form">
-            <div class="container_box_form">
-                <p> DNI: </p>
-                <input type="text" placeholder="Put your DNI" size="50">
+        <!--Campo Age-->
+        <div class="form_group" id="group_age">
+            <label for="age" class="form_label">Edad</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="age" id="age" placeholder="Put your age">
             </div>
-        </div>        
-        <div class="container_submit_form">
-           <input type="submit">
+            <p class="form_input-error">
+                    La edad debe ser un número entero mayor o igual a 18.
+            </p>
         </div>
+        <!--Campo TelephoneNumber-->
+        <div class="form_group" id="group_TelephoneNumber">
+            <label for="TelephoneNumber" class="form_label">Telefono</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="TelephoneNumber" id="TelephoneNumber" placeholder="Put your TelephoneNumber">
+            </div>
+            <p class="form_input-error">
+                    El teléfono debe ser un número de al menos 7 dígitos, no aceptar espacios, guiones ni paréntesis.
+            </p>
+        </div>
+        <!--Campo Adress-->
+        <div class="form_group" id="group_Adress">
+            <label for="Adress" class="form_label">Dirección</label>
+            <div class="form_group-input">
+                    <input type="text" class="form_input" name="Adress" id="Adress" placeholder="Put your Adress">
+            </div>
+            <p class="form_input-error">
+                    El teléfono debe ser un número de al menos 7 dígitos, no aceptar espacios, guiones ni paréntesis.
+            </p>
+        </div>
+        <!--Campo city-->
+        <div class="form_group" id="group_city">
+            <label for="city" class="form_label">Ciudad</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="city" id="city" placeholder="Put your city">
+            </div>
+            <p class="form_input-error">
+                La ciudad debe tener al menos 3 caracteres.
+            </p>
+        </div>
+        <!--Campo postalcode-->
+        <div class="form_group" id="group_postalcode">
+            <label for="postalcode" class="form_label">Codigo Postal</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="postalcode" id="postalcode" placeholder="Put your postalcode">
+            </div>
+            <p class="form_input-error">
+                La ciudad debe tener al menos 3 caracteres.
+            </p>
+        </div>
+        <!--Campo dni-->
+        <div class="form_group" id="group_dni">
+            <label for="dni" class="form_label">DNI</label>
+            <div class="form_group-input">
+                <input type="text" class="form_input" name="dni" id="dni" placeholder="Put your dni">
+            </div>
+            <p class="form_input-error">
+                El DNI debe ser un número de 7 u 8 dígitos.
+            </p>
+        </div>
+        <!--Campo botom-->
+        <div class="form_message" id="form_message">
+            <p>
+                <b>Error:</b> Debes rellenar la totalidad de los campos
+            </p>
+        </div>
+        <div class="form_group form_group-bottom-send">
+            <button type="submit" class="form_bottom"> 
+                Enviar
+            </button>
+            <p class="form_message-sucess" id="form_message-sucess">
+                El formulario se envio exitosamente
+            </p>
+        </div> 
     </form>
-      
-</div>
+</main>
+
+<script src="form_subscription.js"></script>
+
+
+
+
+
 <div class="container_7">
     <ul>
         <li>
