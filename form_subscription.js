@@ -279,10 +279,11 @@ formulario.addEventListener('submit', function formu(e){
         
 
     } else {
-        document.getElementById('form_message').classList.add('form_message-active');
+        alert('Por favor corrige los campos en rojo');
+        /*document.getElementById('form_message').classList.add('form_message-active');
         setTimeout(() => {
             document.getElementById('form_message').classList.remove('form_message-active');
-        }, 5000);
+        }, 5000);*/
     }
 
 
