@@ -17,6 +17,14 @@ main {
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 }
+.stilo{
+	color: black;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 1000;
+	grid-column: span 2;
+}
 .form_label{
 	display: block;
 	font-weight: 700;
