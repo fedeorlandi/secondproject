@@ -24,7 +24,12 @@ var fields = {
     identidy: false
 }
 
-
+var dynamic = document.getElementById('namecomplete');
+dynamic.addEventListener('keydown', dynamichello)
+function dynamichello(){
+    var hello = document.getElementById('namecomplete').value;
+    document.getElementById('dynamic-hello').innerHTML = "<h2> Hola " + hello + "</h2>";
+}
 
 
 var validateform2 = function validatecampo2(e){
