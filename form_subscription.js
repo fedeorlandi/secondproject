@@ -25,7 +25,7 @@ var fields = {
 }
 
 var dynamic = document.getElementById('namecomplete');
-dynamic.addEventListener('keydown', dynamichello)
+dynamic.addEventListener('keyup', dynamichello)
 function dynamichello(){
     var hello = document.getElementById('namecomplete').value;
     document.getElementById('dynamic-hello').innerHTML = "<h2> Hola " + hello + "</h2>";
